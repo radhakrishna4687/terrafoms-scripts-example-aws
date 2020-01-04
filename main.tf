@@ -60,7 +60,7 @@ resource "aws_route_table" "terraform-public" {
     }
 
     tags {
-        Name = "${var.Main_Routeing_Table}"
+        Name = "${var.Main_Routing_Table}"
     }
 }    
 #routetable assocition
